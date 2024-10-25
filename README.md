@@ -25,7 +25,7 @@ first tab: `cd server && ./start.sd` (use`./start.sd` if you want to start it ag
 second tab: `cd bungee && sudo java -jar bungee.jar` (use `sudo java -jar bungee.jar` to start it again in the same terminal)
 <br>
 <br>
-Now go to the ports area and forward (and make public) ports `25565` and `8081`
+Now go to the ports area and forward (and make public) ports `25565`, `8081` and `19132`
 <br>
 Your eaglercraft server is setup!
 <br>
