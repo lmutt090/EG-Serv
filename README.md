@@ -11,7 +11,7 @@ Welcome to the EaglercraftX server project! Here is how you can setup your very 
 <br>
 First, go to the top of the repo and click on code > codespaces > create codespace
 <br>
-Next, download the [latest] server.jar file at [MC Utils](https://mcutils.com/api/server-jars/paper/1.21.1/download) and add it to the server folder (make sure the "s" in server is lowercase)
+Next, download the [latest] server.jar file at [MC Utils](https://mcutils.com/api/server-jars/paper/1.21.1/download) and add it to the server folder (make sure the "s" in server is lowercase) and make sure to pull every mc update
 <br>
 now you have your own free server instance to host eaglercraft. Next you need to run the setup commands:
 <br>
