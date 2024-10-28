@@ -1,0 +1,54 @@
+storage:
+  type: SQLITE
+  host: localhost
+  port: 3306
+  database: ultimatemobcoins
+  username: ultimatemobcoins
+  password: ultimatemobcoins
+  pool-settings:
+    maximum-pool-size: 5
+    minimum-idle: 2
+    maximum-lifetime: 1800000
+    connection-timeout: 5000
+  properties:
+    useUnicode: true
+    characterEncoding: utf8
+
+mobcoins:
+  disabled_worlds:
+  - disabled_world
+  starting_balance: 0.0
+  auto-pickup: true
+  format: '###,##0.00'
+  format-locale: en-US
+  item:
+    material: SUNFLOWER
+    name: <gold><bold>Mob Coin <gray><italic>(Click to redeem)
+    lore:
+    - <gray>With mobcoins you can purchase
+    - <gray>items in the mobcoin shop!
+    - <reset>
+    - <gold>Holds <yellow><amount> <gold>mobcoins
+    - <reset>
+    - <gray>Right click to redeem!
+    glow: false
+    model_data: null
+  sounds:
+    pickup:
+      enabled: true
+      sound: ENTITY_PLAYER_LEVELUP
+      volume: 1.0
+      pitch: 1.0
+
+log:
+  pay: true
+  withdraw: true
+  spinner: true
+
+command:
+  name: mobcoins
+  aliases:
+  - mobcoin
+  default_shop: main_menu
+
+config-version: 4

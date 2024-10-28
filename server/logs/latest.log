@@ -1,0 +1,6 @@
+[14:15:15] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Microsoft Microsoft-9889606) on Linux 6.5.0-1025-azure (amd64)
+[14:15:15] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-128-master@d348cb8 (2024-10-21T16:23:24Z) for Minecraft 1.21.1
+[14:15:15] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:15:16] [ServerMain/INFO]: [PluginInitializerManager] Initialized 17 plugins
+[14:15:16] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (17):
+ - AxEnvoy (2.0.5), AxTrade (1.8.1), AxVaults (2.2.1), BetterRTP (3.4.2-1), HolographicDisplays (3.0.4), Item2Chat (7.7.3), LoginSecurity (3.2.0), LuckPerms (5.4.144), Polymart (1.2.11), SimpleHomes (2.2), SimpleTpa (6.4), UltimateClaims (2.4.0), UltimateStacker (3.3.0), ViaBackwards (5.0.4), ViaRewind (4.0.3), ViaVersion (5.0.5), WorldEdit (6.1;no_git_id)

@@ -1,0 +1,58 @@
+#Cooldown in seconds until a player can collect a new crateType of this type
+#THIS OVERRIDES THE SAME SETTING IN THE ENVOY'S CATEGORY! If you do NOT want to override it, remove it from here
+collect-cooldown: 30
+broadcast-collect: true
+
+display-name: '&cRare'
+block: gold_block
+
+required-interactions:
+  amount: 1
+  #In ticks. 1 second is 20 ticks! Set to 0 to disable!
+  cooldown: 0
+
+firework:
+  enabled: true
+  #ff0000
+  color: '#ff0000'
+  type: ball
+
+falling-block:
+  enabled: false
+  height: 10
+  block: end_rod
+  speed: -1
+
+flare:
+  enabled: true
+  #In ticks, 20 ticks is 1 second
+  every: 200
+  firework:
+    #ff0000
+    color: '#ff0000'
+    type: ball
+
+rewards:
+- chance: 30.0
+  commands:
+  - give %player% diamond 1
+  sounds:
+  - ENTITY_PLAYER_LEVELUP;0;0
+- chance: 20.0
+  messages:
+  - '&7Wow!'
+  commands:
+  - give %player% diamond 6
+- commands:
+  - give %player% netherite_ingot 1
+  required-item:
+    type: stone
+    name: '&cI like tomatoes'
+
+hologram:
+  height: 2.0
+  enabled: true
+  lines:
+  - '&7Envoy'
+  - '&fRarity: &9rare.'
+reward-amount: 1

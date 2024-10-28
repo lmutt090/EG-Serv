@@ -1,0 +1,57 @@
+#Cooldown in seconds until a player can collect a new crateType of this type
+#THIS OVERRIDES THE SAME SETTING IN THE ENVOY'S CATEGORY! If you do NOT want to override it, remove it from here
+collect-cooldown: 10
+broadcast-collect: true
+
+display-name: '&cLegendary'
+block: diamond_block
+
+required-interactions:
+  amount: 1
+  #In ticks. 1 second is 20 ticks! Set to 0 to disable!
+  cooldown: 0
+
+firework:
+  enabled: true
+  #ff0000
+  color: '#ff0000'
+  type: ball
+
+falling-block:
+  enabled: false
+  height: 10
+  block: end_rod
+  speed: -1
+
+flare:
+  enabled: true
+  #In ticks, 20 ticks is 1 second
+  every: 200
+  firework:
+    #ff0000
+    color: '#ff0000'
+    type: ball
+
+rewards:
+- chance: 70.0
+  commands:
+  - eco give %player% 100
+- chance: 10.0
+  messages:
+  - '&7Wow!'
+  commands:
+  - eco give %player% 500
+- chance: 0.3
+  commands:
+  - eco give %player% 50000
+  - bc %player% won the jackpot of 50.000 coins! WOW!
+  items:
+  - type: ''
+
+hologram:
+  height: 2.0
+  enabled: true
+  lines:
+  - '&7Envoy'
+  - '&fRarity: &6legendary.'
+reward-amount: 1

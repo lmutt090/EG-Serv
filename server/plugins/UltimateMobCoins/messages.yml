@@ -1,0 +1,50 @@
+mobcoins:
+  balance: <gold>You have <yellow><coins><gold> coins, you collected <yellow><coins_collected><gold> coins and you spent <yellow><coins_spent><gold> coins!
+  balance_others: <gold><displayname> has <yellow><coins><gold> coins, collected <yellow><coins_collected><gold> coins and spent <yellow><coins_spent><gold> coins!
+  set_sender: <yellow><displayname><gold>'s mobcoins balance has been set to <yellow><amount><gold>.
+  set_target: <gold>Your mobcoins balance has been set to <yellow><amount> <gold>by <yellow><displayname><gold>.
+  give_sender: <gold>You gave <yellow><amount> <gold>mobcoins to <yellow><displayname><gold>.
+  give_target: <yellow><displayname> <gold>gave you <yellow><amount> <gold>mobcoins.
+  take_sender: <gold>You took <yellow><amount> <gold>mobcoins from <yellow><displayname><gold>.
+  take_target: <yellow><displayname> <gold>took <yellow><amount> <gold>mobcoins from you.
+  not_enough: <red>You don't have enough mobcoins!
+  pay_sender: <gold>You have payed <yellow><displayname> <amount> <gold>mobcoins.
+  pay_target: <yellow><displayname> <gold>has paid you <yellow><amount> <gold>mobcoins.
+  cannot_pay_yourself: <red>You cannot pay yourself mobcoins!
+  received:
+    chat: ''
+    actionbar: <green>+<amount> MobCoin(s)
+  withdraw: <gold>You have withdrawn <yellow><amount> <gold>mobcoins.
+  inventory_full: <red>Your inventory is full!
+  top:
+    title: <white>Top Mob Coins
+    entry: <green><position> <yellow><player_name> <gold><mobcoins> mobcoins
+  grind_top:
+    title: <white>Top Earned Mob Coins
+    entry: <green><position> <yellow><player_name> <gold><mobcoins> mobcoins
+
+menus:
+  no_permission: <dark_red><bold>(!)</bold> <red>You don't have permission to click on this item!
+  out_of_stock: <dark_red><bold>(!)</bold> <red>Sorry, this item is out of stock!
+  not_enough_mobcoins: <dark_red><bold>(!)</bold> <red>You don't have enough mobcoins to purchase this item!
+  item_purchased: <green><bold>(!)</bold> <gold>You have purchased this item for <yellow><price> <gold>mobcoins!
+  item_purchased_vault: <green><bold>(!)</bold> <gold>You have purchased this item for <yellow><price_vault> <gold>money!
+  limit_reached: <dark_red><bold>(!)</bold> <red>Sorry, you're not allowed to purchase any more of this item!
+
+spinner:
+  not_enough_mobcoins: <dark_red><bold>(!)</bold> <red>You don't have enough mobcoins to spin!
+
+# Translatable time units used for cooldown
+timeunits:
+  days: days
+  day: day
+  hours: hours
+  hour: hour
+  minutes: minutes
+  minute: minute
+  seconds: seconds
+  second: second
+
+noPermission: <red>I'm sorry, but you do not have permission to perform this command.<br>Please contact the server administrators if you believe that this is a error.
+
+config-version: 7

@@ -1,0 +1,16 @@
+shoot_fireworks: false
+usage_costs: 9999999999999999999999999999999999999999
+menu_title: <gold><bold>MobCoin Spinner
+sounds:
+  spinning:
+    enabled: true
+    sound: UI_BUTTON_CLICK
+    volume: 1.0
+    pitch: 1.0
+  prize_won:
+    enabled: true
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 1.0
+    pitch: 1.0
+
+prizes:

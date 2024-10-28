@@ -1,0 +1,49 @@
+# ================================
+# EndlessCommands Configuration
+# ================================
+# This configuration file allows you to customize various settings for the EndlessCommands plugin.
+#
+# Sections:
+# Command Settings - Configuration for custom commands.
+# ================================
+
+commands:
+  discord:
+    enabled: true
+    message:
+      - ""
+      - "&3&lDiscord Server"
+      - "&7&ohttps://discord.gg/nWAz4BzCqd"
+      - ""
+  website:
+    enabled: true
+    message:
+      - ""
+      - "&3&lOfficial Website"
+      - "&7&ohttps://endlesscommands.co"
+      - ""
+  donate:
+    enabled: true
+    message:
+      - ""
+      - "&3&lServer Store"
+      - "&7&ohttps://buy.endlesscommands.co"
+      - ""
+  info:
+    enabled: true
+    message:
+      - ""
+      - "&3&lServer Information:"
+      - "&3Server IP: &7endlesscommands.co"
+      - "&3Version: &71.21.1"
+      - "&3Developers; CoastalGames"
+      - ""
+  rules:
+    enabled: true
+    message:
+      - ""
+      - "&3&lServer Rules:"
+      - "&3- &7No Hacked Clients/Mods"
+      - "&3- &7No Profanity/Racism"
+      - "&3- &7No Selling IRL Items For In Game Items"
+      - ""

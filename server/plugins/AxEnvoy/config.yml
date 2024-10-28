@@ -1,0 +1,9 @@
+#Enable this, if you want to prevent the crateTypes from changing their surrounding blocks.
+#Examples:
+#If a crateType spawns on a 'dirt path' block, that block will become dirt, if this feature is disabled.
+#Warning: This will probably tank your performance at crateType spawning, if lots of crateTypes spawn (lots = hundreds)
+#Changing this requires a restart!
+listen-to-block-physics: false
+#Enable this, if you want to prevent some blocks that
+#replaced by crates in certain cases.
+dont-replace-blocks: true

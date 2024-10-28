@@ -1,0 +1,46 @@
+# ================================
+# EndlessCommands Messages
+# ================================
+# This configuration file allows you to customize various messages for the EndlessCommands plugin.
+#
+# Sections:
+# Command Feedback - Messages related to the execution of commands.
+# Permissions - Messages related to permission checks.
+# Usage Instructions - Messages that guide users on how to use commands.
+# ================================
+
+messages:
+  command-feedback:
+    config-reloaded:
+      - "&3&l[!] &bEndlessCommands &3configuration has been successfully reloaded!"
+    command-created:
+      - "&3&l[!] &3You have successfully created the command: &b%command%! &3You can now configure it via the config.yml file."
+    command-deleted:
+      - "&3&l[!] &3You have successfully deleted the command: &b%command%!"
+    command-exists:
+      - "&c&l[!] &cThe command &7/%command% &calready exists!"
+    command-not-found:
+      - "&c&l[!] &cThe command &7/%command% &cdoes not exist!"
+    default-command:
+      - "&c&l[!] &cThe command /%command% is a default command and cannot be deleted."
+    command-is-disabled:
+      - "&c&l[!] &cThe command &7/%command% &cis currently disabled!"
+    command-enabled:
+      - "&3&l[!] &3You have successfully enabled the command: &b%command%!"
+    command-disabled:
+      - "&3&l[!] &3You have successfully disabled the command: &b%command%!"
+  permissions:
+    no-permission:
+      - "&c&l[!] &cYou do not have permission to use this command."
+  usage-instructions:
+    create-usage:
+      - "&c&l[!] &cUsage: &7/endlesscommands create <commandName>"
+    delete-usage:
+      - "&c&l[!] &cUsage: &7/endlesscommands delete <commandName>"
+    enable-usage:
+      - "&c&l[!] &cUsage: &7/endlesscommands enable <commandName>"
+    disable-usage:
+      - "&c&l[!] &cUsage: &7/endlesscommands disable <commandName>"
+  error-messages:
+    player-only-command:
+      - "&c&l[!] &cThis command can only be used by a player."

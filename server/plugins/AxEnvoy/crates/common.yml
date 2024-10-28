@@ -1,0 +1,55 @@
+#Cooldown in seconds until a player can collect a new crateType of this type
+#THIS OVERRIDES THE SAME SETTING IN THE ENVOY'S CATEGORY! If you do NOT want to override it, remove it from here
+collect-cooldown: 10
+broadcast-collect: true
+
+display-name: '&cCommon'
+block: iron_block
+
+required-interactions:
+  amount: 1
+  #In ticks. 1 second is 20 ticks! Set to 0 to disable!
+  cooldown: 0
+
+falling-block:
+  enabled: false
+  height: 10
+  block: end_rod
+  speed: -1
+
+firework:
+  enabled: true
+  #ff0000
+  color: '#ff0000'
+  type: ball
+
+flare:
+  enabled: true
+  #In ticks, 20 ticks is 1 second
+  every: 200
+  firework:
+    #ff0000
+    color: '#ff0000'
+    type: ball
+
+reward-amount: 1
+
+rewards:
+- chance: 10.0
+  messages:
+  - '&7Wow!'
+  commands:
+  - eco give %player% 1000
+- chance: 30.0
+  commands:
+  - eco give %player% 500
+- chance: 100.0
+  commands:
+  - eco give %player% 50
+
+hologram:
+  enabled: true
+  height: 2.0
+  lines:
+  - '&7Envoy!'
+  - '&fRarity: &acommon.'

@@ -1,0 +1,649 @@
+[18:46:20] [main/INFO]: Using mbed TLS based native cipher.
+[18:46:20] [main/INFO]: Using zlib based native compressor.
+[18:46:20] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
+[18:46:20] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[18:46:20] [main/INFO]: Epoll is working, utilising it!
+[18:46:20] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[18:46:20] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[18:46:20] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[18:46:20] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[18:46:20] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[18:46:20] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[18:46:21] [main/WARN] [Geyser-BungeeCord]:       / \
+[18:46:21] [main/WARN] [Geyser-BungeeCord]:      /   \
+[18:46:21] [main/WARN] [Geyser-BungeeCord]:     /  |  \
+[18:46:21] [main/WARN] [Geyser-BungeeCord]:    /   |   \    Your Waterfall proxy is outdated!
+[18:46:21] [main/WARN] [Geyser-BungeeCord]:   /         \   GEYSER MAY NOT WORK AS INTENDED!
+[18:46:21] [main/WARN] [Geyser-BungeeCord]:  /     o     \
+[18:46:21] [main/WARN] [Geyser-BungeeCord]: /_____________\
+[18:46:21] [main/INFO] [Geyser-BungeeCord]: Loading extensions...
+[18:46:21] [main/INFO] [Geyser-BungeeCord]: Loaded 0 extension(s)
+[18:46:21] [main/INFO]: Loaded plugin Geyser-BungeeCord version 2.4.4-SNAPSHOT by GeyserMC
+[18:46:21] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:46:21] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:46:21] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:46:21] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:46:21] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:46:21] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:46:21] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[18:46:21] [main/WARN]: :>  
+[18:46:21] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[18:46:21] [main/WARN]: :>  
+[18:46:21] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[18:46:21] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[18:46:21] [main/WARN]: :>  apart from the versions listed below:
+[18:46:21] [main/WARN]: :>  
+[18:46:21] [main/WARN]: :>  - BungeeCord: 1.20-R0.2-SNAPSHOT:231024b:1777
+[18:46:21] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:d85fe36:556
+[18:46:21] [main/WARN]: :>  - FlameCord: 1.1.1
+[18:46:21] [main/WARN]: :>  
+[18:46:21] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[18:46:21] [main/WARN]: :>  
+[18:46:21] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[18:46:21] [main/WARN]: :>  
+[18:46:21] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[18:46:21] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[18:46:22] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
+[18:46:22] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.9 by lax1dude
+[18:46:22] [main/WARN]: Could not load server icon
+java.lang.IllegalArgumentException: Server icon must be exactly 64x64 pixels
+	at net.md_5.bungee.api.Favicon.create(Favicon.java:65) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.conf.Configuration.load(Configuration.java:89) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.github.waterfallmc.waterfall.conf.WaterfallConfiguration.load(WaterfallConfiguration.java:67) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:288) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+[18:46:22] [main/WARN]: Forced host server pvp is not defined
+[18:46:22] [main/INFO] [Geyser-BungeeCord]: Registered command geyser help
+[18:46:22] [main/INFO] [Geyser-BungeeCord]: Registered command geyser list
+[18:46:22] [main/INFO] [Geyser-BungeeCord]: Registered command geyser reload
+[18:46:22] [main/INFO] [Geyser-BungeeCord]: Registered command geyser offhand
+[18:46:22] [main/INFO] [Geyser-BungeeCord]: Registered command geyser dump
+[18:46:22] [main/INFO] [Geyser-BungeeCord]: Registered command geyser version
+[18:46:22] [main/INFO] [Geyser-BungeeCord]: Registered command geyser settings
+[18:46:22] [main/INFO] [Geyser-BungeeCord]: Registered command geyser statistics
+[18:46:22] [main/INFO] [Geyser-BungeeCord]: Registered command geyser advancements
+[18:46:22] [main/INFO] [Geyser-BungeeCord]: Registered command geyser tooltips
+[18:46:22] [main/INFO] [Geyser-BungeeCord]: Registered command geyser connectiontest
+[18:46:22] [main/INFO] [Geyser-BungeeCord]: Registered command geyser ping
+[18:46:22] [main/INFO]: Enabled plugin Geyser-BungeeCord version 2.4.4-SNAPSHOT by GeyserMC
+[18:46:22] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: ******************************************
+[18:46:22] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: 
+[18:46:22] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Loading Geyser version 2.4.4-b694 (git-master-e7ecb55)
+[18:46:22] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: 
+[18:46:22] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: ******************************************
+[18:46:22] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:46:22] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:46:22] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:46:22] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:46:22] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:46:22] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[18:46:22] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[18:46:23] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[18:46:23] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.9 by lax1dude
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Skipping particle mapping BLOCK_MARKER because no Bedrock equivalent exists.
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Skipping particle mapping DUST_PILLAR because no Bedrock equivalent exists.
+[18:46:23] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Skipping particle mapping GUST because no Bedrock equivalent exists.
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Skipping particle mapping GUST_EMITTER_LARGE because no Bedrock equivalent exists.
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Skipping particle mapping INFESTED because no Bedrock equivalent exists.
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Skipping particle mapping ITEM_COBWEB because no Bedrock equivalent exists.
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Skipping particle mapping OMINOUS_SPAWNING because no Bedrock equivalent exists.
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Skipping particle mapping RAID_OMEN because no Bedrock equivalent exists.
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Skipping particle mapping SMALL_GUST because no Bedrock equivalent exists.
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Skipping particle mapping TRIAL_OMEN because no Bedrock equivalent exists.
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Skipping particle mapping TRIAL_SPAWNER_DETECTION because no Bedrock equivalent exists.
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Skipping particle mapping TRIAL_SPAWNER_DETECTION_OMINOUS because no Bedrock equivalent exists.
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockStructureBlockUpdateTranslator : StructureBlockUpdatePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaContainerCloseTranslator : ClientboundContainerClosePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaRemoveEntitiesTranslator : ClientboundRemoveEntitiesPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerLookAtTranslator : ClientboundPlayerLookAtPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaRemoveMobEffectTranslator : ClientboundRemoveMobEffectPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerInfoUpdateTranslator : ClientboundPlayerInfoUpdatePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetPassengersTranslator : ClientboundSetPassengersPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaMapItemDataTranslator : ClientboundMapItemDataPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.spawn.JavaAddEntityTranslator : ClientboundAddEntityPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockTextTranslator : TextPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaHorseScreenOpenTranslator : ClientboundHorseScreenOpenPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockMoveEntityAbsoluteTranslator : MoveEntityAbsolutePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaMerchantOffersTranslator : ClientboundMerchantOffersPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockBlockPickRequestTranslator : BlockPickRequestPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockPositionTrackingDBClientRequestTranslator : PositionTrackingDBClientRequestPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaFinishConfigurationPacketTranslator : ClientboundFinishConfigurationPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaRotateHeadTranslator : ClientboundRotateHeadPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaForgetLevelChunkTranslator : ClientboundForgetLevelChunkPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaSystemChatTranslator : ClientboundSystemChatPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaBlockEventTranslator : ClientboundBlockEventPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaUpdateRecipesTranslator : ClientboundUpdateRecipesPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockInteractTranslator : InteractPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockContainerCloseTranslator : ContainerClosePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockPlayerInputTranslator : PlayerInputPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaSetHealthTranslator : ClientboundSetHealthPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaCommandsTranslator : ClientboundCommandsPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaCustomQueryTranslator : ClientboundCustomQueryPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaInitializeBorderTranslator : ClientboundInitializeBorderPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerInfoRemoveTranslator : ClientboundPlayerInfoRemovePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaTeleportEntityTranslator : ClientboundTeleportEntityPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaClientboundRecipesTranslator : ClientboundRecipePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockEntityPickRequestTranslator : EntityPickRequestPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaRespawnTranslator : ClientboundRespawnPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaDamageEventTranslator : ClientboundDamageEventPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockSetPlayerInventoryOptionsTranslator : SetPlayerInventoryOptionsPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockRespawnTranslator : RespawnPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaLevelChunkWithLightTranslator : ClientboundLevelChunkWithLightPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaCustomPayloadTranslator : ClientboundCustomPayloadPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSoundEntityTranslator : ClientboundSoundEntityPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetEntityDataTranslator : ClientboundSetEntityDataPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaContainerSetContentTranslator : ClientboundContainerSetContentPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.BedrockEntityEventTranslator : EntityEventPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderLerpSizeTranslator : ClientboundSetBorderLerpSizePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockCommandBlockUpdateTranslator : CommandBlockUpdatePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaBossEventTranslator : ClientboundBossEventPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockSetLocalPlayerAsInitializedTranslator : SetLocalPlayerAsInitializedPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerPositionTranslator : ClientboundPlayerPositionPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockSetDefaultGameTypeTranslator : SetDefaultGameTypePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaBlockEntityDataTranslator : ClientboundBlockEntityDataPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaGameEventTranslator : ClientboundGameEventPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaStoreCookieTranslator : ClientboundStoreCookiePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockCommandRequestTranslator : CommandRequestPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockItemStackRequestTranslator : ItemStackRequestPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaGameProfileTranslator : ClientboundGameProfilePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaOpenScreenTranslator : ClientboundOpenScreenPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaSetTitleTextTranslator : ClientboundSetTitleTextPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaLevelParticlesTranslator : ClientboundLevelParticlesPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockShowCreditsTranslator : ShowCreditsPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSetDefaultSpawnPositionTranslator : ClientboundSetDefaultSpawnPositionPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaRegistryDataTranslator : ClientboundRegistryDataPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaExplodeTranslator : ClientboundExplodePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaTransferPacketTranslator : ClientboundTransferPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockServerSettingsRequestTranslator : ServerSettingsRequestPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockLecternUpdateTranslator : LecternUpdatePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaStartConfigurationTranslator : ClientboundStartConfigurationPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderWarningDistanceTranslator : ClientboundSetBorderWarningDistancePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaBlockDestructionTranslator : ClientboundBlockDestructionPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaSelectKnownPacksTranslator : ClientboundSelectKnownPacks
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaSetSubtitleTextTranslator : ClientboundSetSubtitleTextPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaClientboundResourcePackPushPacket : ClientboundResourcePackPushPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockActionTranslator : PlayerActionPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockEmoteListTranslator : EmoteListPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockSetPlayerGameTypeTranslator : SetPlayerGameTypePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaDisconnectTranslator : ClientboundDisconnectPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaStopSoundTranslator : ClientboundStopSoundPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaContainerSetDataTranslator : ClientboundContainerSetDataPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveEntityRotTranslator : ClientboundMoveEntityRotPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaCookieRequestTranslator : ClientboundCookieRequestPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockEmoteTranslator : EmotePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockRequestAbilityTranslator : RequestAbilityPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaAwardStatsTranslator : ClientboundAwardStatsPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockRequestPermissionsPacket : RequestPermissionsPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaDisguisedChatTranslator : ClientboundDisguisedChatPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaChunkBatchFinishedTranslator : ClientboundChunkBatchFinishedPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockToggleCrafterSlotRequestTranslator : ToggleCrafterSlotRequestPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockStructureTemplateDataRequestTranslator : StructureTemplateDataRequestPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaChangeDifficultyTranslator : ClientboundChangeDifficultyPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderWarningDelayTranslator : ClientboundSetBorderWarningDelayPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockPacketViolationWarningTranslator : PacketViolationWarningPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaOpenSignEditorTranslator : ClientboundOpenSignEditorPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSetChunkCacheCenterTranslator : ClientboundSetChunkCacheCenterPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaKeepAliveTranslator : ClientboundKeepAlivePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockBookEditTranslator : BookEditPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveVehicleTranslator : ClientboundMoveVehiclePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaCooldownTranslator : ClientboundCooldownPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetEquipmentTranslator : ClientboundSetEquipmentPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaResetScorePacket : ClientboundResetScorePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaLevelEventTranslator : ClientboundLevelEventPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockMobEquipmentTranslator : MobEquipmentPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaAnimateTranslator : ClientboundAnimatePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaBlockChangedAckTranslator : ClientboundBlockChangedAckPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerCombatKillTranslator : ClientboundPlayerCombatKillPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaSetScoreTranslator : ClientboundSetScorePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockBlockEntityDataTranslator : BlockEntityDataPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockNetworkStackLatencyTranslator : NetworkStackLatencyPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.world.BedrockLevelSoundEventTranslator : LevelSoundEventPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaPlayerChatTranslator : ClientboundPlayerChatPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaSetTitlesAnimationTranslator : ClientboundSetTitlesAnimationPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaSelectAdvancementsTabTranslator : ClientboundSelectAdvancementsTabPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderCenterTranslator : ClientboundSetBorderCenterPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaLoginTranslator : ClientboundLoginPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderSizeTranslator : ClientboundSetBorderSizePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaSetCarriedItemTranslator : ClientboundSetCarriedItemPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockFilterTextTranslator : FilterTextPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockRiderJumpTranslator : RiderJumpPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaSetPlayerTeamTranslator : ClientboundSetPlayerTeamPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSetTimeTranslator : ClientboundSetTimePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSetChunkCacheRadiusTranslator : ClientboundSetChunkCacheRadiusPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockMovePlayerTranslator : MovePlayerPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaSetObjectiveTranslator : ClientboundSetObjectivePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaEntityEventTranslator : ClientboundEntityEventPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaBlockUpdateTranslator : ClientboundBlockUpdatePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockSetDifficultyTranslator : SetDifficultyPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaTakeItemEntityTranslator : ClientboundTakeItemEntityPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveEntityPosTranslator : ClientboundMoveEntityPosPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveEntityPosRotTranslator : ClientboundMoveEntityPosRotPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaUpdateTagsTranslator : ClientboundUpdateTagsPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaSetActionBarTextTranslator : ClientboundSetActionBarTextPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerAbilitiesTranslator : ClientboundPlayerAbilitiesPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaContainerSetSlotTranslator : ClientboundContainerSetSlotPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetEntityLinkTranslator : ClientboundSetEntityLinkPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaLoginDisconnectTranslator : ClientboundLoginDisconnectPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockRequestChunkRadiusTranslator : RequestChunkRadiusPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.spawn.JavaAddExperienceOrbTranslator : ClientboundAddExperienceOrbPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSoundTranslator : ClientboundSoundPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaUpdateAttributesTranslator : ClientboundUpdateAttributesPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockInventoryTransactionTranslator : InventoryTransactionPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaUpdateMobEffectTranslator : ClientboundUpdateMobEffectPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetEntityMotionTranslator : ClientboundSetEntityMotionPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockAnimateTranslator : AnimatePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaSetDisplayObjectiveTranslator : ClientboundSetDisplayObjectivePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaPingTranslator : ClientboundPingPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSectionBlocksUpdateTranslator : ClientboundSectionBlocksUpdatePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaClearTitlesTranslator : ClientboundClearTitlesPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaSetExperienceTranslator : ClientboundSetExperiencePacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaOpenBookTranslator : ClientboundOpenBookPacket
+[18:46:23] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaUpdateAdvancementsTranslator : ClientboundUpdateAdvancementsPacket
+[18:46:24] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated collision translator: org.geysermc.geyser.translator.collision.DirtPathCollision
+[18:46:24] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated collision translator: org.geysermc.geyser.translator.collision.ScaffoldingCollision
+[18:46:24] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated collision translator: org.geysermc.geyser.translator.collision.SolidCollision
+[18:46:24] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated collision translator: org.geysermc.geyser.translator.collision.GlassPaneAndIronBarsCollision
+[18:46:24] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated collision translator: org.geysermc.geyser.translator.collision.DoorCollision
+[18:46:24] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Found annotated collision translator: org.geysermc.geyser.translator.collision.TrapdoorCollision
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:heavy_core as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:dragon_egg as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:command_block as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:beacon as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:barrier as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:light as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:repeating_command_block as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:chain_command_block as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:structure_void as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:conduit as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:elytra as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:structure_block as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:jigsaw as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:golden_apple as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:enchanted_golden_apple as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:bundle as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:experience_bottle as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:mace as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:skeleton_skull as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:wither_skeleton_skull as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:player_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:zombie_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:creeper_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:dragon_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:piglin_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:nether_star as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:enchanted_book as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:command_block_minecart as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:end_crystal as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:dragon_breath as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:spectral_arrow as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:tipped_arrow as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:totem_of_undying as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:knowledge_book as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:debug_stick as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_13 as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_cat as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_blocks as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_chirp as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_creator as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_creator_music_box as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_far as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_mall as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_mellohi as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_stal as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_strad as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_ward as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_11 as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_wait as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_otherside as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_relic as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_5 as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_pigstep as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_precipice as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:trident as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:heart_of_the_sea as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:creeper_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:skull_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:mojang_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:piglin_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:flow_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:guster_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Skipping vanilla component minecraft:music_disc_creator_music_box for protocol 671
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Skipping vanilla component minecraft:music_disc_precipice for protocol 671
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Skipping vanilla component minecraft:ominous_trial_key for protocol 671
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Skipping vanilla component minecraft:music_disc_creator for protocol 671
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:heavy_core as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:dragon_egg as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:command_block as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:beacon as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:barrier as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:light as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:repeating_command_block as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:chain_command_block as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:structure_void as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:conduit as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:elytra as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:structure_block as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:jigsaw as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:golden_apple as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:enchanted_golden_apple as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:bundle as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:experience_bottle as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:mace as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:skeleton_skull as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:wither_skeleton_skull as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:player_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:zombie_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:creeper_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:dragon_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:piglin_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:nether_star as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:enchanted_book as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:command_block_minecart as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:end_crystal as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:dragon_breath as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:spectral_arrow as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:tipped_arrow as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:totem_of_undying as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:knowledge_book as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:debug_stick as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_13 as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_cat as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_blocks as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_chirp as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_creator as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_creator_music_box as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_far as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_mall as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_mellohi as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_stal as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_strad as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_ward as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_11 as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_wait as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_otherside as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_relic as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_5 as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_pigstep as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_precipice as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:trident as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:heart_of_the_sea as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:creeper_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:skull_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:mojang_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:piglin_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:flow_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:guster_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:heavy_core as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:dragon_egg as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:command_block as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:beacon as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:barrier as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:light as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:repeating_command_block as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:chain_command_block as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:structure_void as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:conduit as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:elytra as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:structure_block as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:jigsaw as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:golden_apple as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:enchanted_golden_apple as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:bundle as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:experience_bottle as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:mace as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:skeleton_skull as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:wither_skeleton_skull as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:player_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:zombie_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:creeper_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:dragon_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:piglin_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:nether_star as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:enchanted_book as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:command_block_minecart as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:end_crystal as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:dragon_breath as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:spectral_arrow as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:tipped_arrow as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:totem_of_undying as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:knowledge_book as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:debug_stick as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_13 as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_cat as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_blocks as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_chirp as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_creator as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_creator_music_box as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_far as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_mall as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_mellohi as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_stal as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_strad as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_ward as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_11 as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_wait as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_otherside as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_relic as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_5 as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_pigstep as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_precipice as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:trident as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:heart_of_the_sea as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:creeper_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:skull_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:mojang_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:piglin_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:flow_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:guster_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:heavy_core as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:dragon_egg as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:command_block as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:beacon as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:barrier as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:light as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:repeating_command_block as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:chain_command_block as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:structure_void as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:conduit as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:elytra as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:structure_block as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:jigsaw as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:golden_apple as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:enchanted_golden_apple as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:bundle as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:experience_bottle as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:mace as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:skeleton_skull as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:wither_skeleton_skull as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:player_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:zombie_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:creeper_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:dragon_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:piglin_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:nether_star as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:enchanted_book as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:command_block_minecart as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:end_crystal as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:dragon_breath as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:spectral_arrow as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:tipped_arrow as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:totem_of_undying as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:knowledge_book as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:debug_stick as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_13 as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_cat as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_blocks as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_chirp as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_creator as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_creator_music_box as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_far as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_mall as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_mellohi as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_stal as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_strad as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_ward as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_11 as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_wait as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_otherside as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_relic as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_5 as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_pigstep as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_precipice as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:trident as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:heart_of_the_sea as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:creeper_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:skull_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:mojang_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:piglin_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:flow_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:guster_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:heavy_core as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:dragon_egg as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:command_block as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:beacon as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:barrier as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:light as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:repeating_command_block as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:chain_command_block as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:structure_void as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:conduit as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:elytra as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:structure_block as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:jigsaw as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:golden_apple as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:enchanted_golden_apple as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:bundle as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:experience_bottle as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:mace as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:skeleton_skull as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:wither_skeleton_skull as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:player_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:zombie_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:creeper_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:dragon_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:piglin_head as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:nether_star as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:enchanted_book as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:command_block_minecart as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:end_crystal as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:dragon_breath as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:spectral_arrow as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:tipped_arrow as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:totem_of_undying as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:knowledge_book as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:debug_stick as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_13 as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_cat as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_blocks as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_chirp as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_creator as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_creator_music_box as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_far as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_mall as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_mellohi as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_stal as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_strad as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_ward as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_11 as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_wait as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_otherside as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_relic as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_5 as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_pigstep as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:music_disc_precipice as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:trident as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:heart_of_the_sea as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:creeper_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:skull_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:mojang_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:piglin_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:flow_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Adding minecraft:guster_banner_pattern as an item that needs to be translated.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Kernel version: 6.5.0-1025-azure
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Listen thread count: 2
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: EventLoop type: class io.netty.channel.epoll.EpollDatagramChannel
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Setting MTU to 1400
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Setting RakNet packet limit to 120
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Setting RakNet global packet limit to 100000
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Setting RakNet send cookie to true
+[18:46:26] [epollEventLoopGroup-3-1/INFO] [Geyser-BungeeCord]: Started Geyser on UDP port 19132
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Done (3.742s)! Run /geyser help for help!
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Waterfall event loop style detected.
+[18:46:26] [Geyser-BungeeCord Pool Thread #0/INFO] [Geyser-BungeeCord]: Local injection succeeded!
+[18:46:26] [ForkJoinPool.commonPool-worker-3/INFO] [Geyser-BungeeCord]: {"client":{"sha1":"0e9a07b9bb3390602f977073aa12884a4ce12431","size":26836080,"url":"https://piston-data.mojang.com/v1/objects/0e9a07b9bb3390602f977073aa12884a4ce12431/client.jar"},"client_mappings":{"sha1":"0530a206839eb1e9b35ec86acbbe394b07a2d9fb","size":9597156,"url":"https://piston-data.mojang.com/v1/objects/0530a206839eb1e9b35ec86acbbe394b07a2d9fb/client.txt"},"server":{"sha1":"450698d1863ab5180c25d7c804ef0fe6369dd1ba","size":51623779,"url":"https://piston-data.mojang.com/v1/objects/450698d1863ab5180c25d7c804ef0fe6369dd1ba/server.jar"},"server_mappings":{"sha1":"31c77994d96f05ba25a870ada70f47f315330437","size":7454609,"url":"https://piston-data.mojang.com/v1/objects/31c77994d96f05ba25a870ada70f47f315330437/server.txt"}}
+[18:46:26] [ForkJoinPool.commonPool-worker-3/INFO] [Geyser-BungeeCord]: {"sha1":"0e9a07b9bb3390602f977073aa12884a4ce12431","size":26836080,"url":"https://piston-data.mojang.com/v1/objects/0e9a07b9bb3390602f977073aa12884a4ce12431/client.jar"}
+[18:46:26] [ForkJoinPool.commonPool-worker-3/INFO] [Geyser-BungeeCord]: Downloading and loading locale: en_us
+[18:47:02] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:47:06] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:47:13] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:47:22] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:47:34] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:47:58] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:48:01] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:48:03] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:48:12] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:48:33] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:50:00] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:50:38] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:50:46] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:50:58] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:51:00] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:51:36] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:52:40] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:52:53] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:53:28] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:53:35] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:54:09] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:54:52] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:55:02] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:55:40] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:56:50] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:58:14] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:58:28] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:58:39] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[18:59:16] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:00:28] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:01:36] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:02:24] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:02:38] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:03:11] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:04:47] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:04:54] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:06:39] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:07:00] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:07:40] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:08:12] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:08:29] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:08:33] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:09:28] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:09:35] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:10:04] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:11:11] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:11:13] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:11:15] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:11:30] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:12:56] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:14:07] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:14:20] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:14:37] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:14:47] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:15:15] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:15:40] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:17:26] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:18:43] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:18:48] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:18:50] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:18:52] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:19:44] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:20:29] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:20:46] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:21:13] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:21:34] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:22:32] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:22:36] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:23:14] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:23:42] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:24:42] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players
+[19:24:44] [Thread-5/INFO] [Geyser-BungeeCord]: Scoreboard updater: took 1 ms. Updated 0 players

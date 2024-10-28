@@ -1,0 +1,59 @@
+title: MobCoin Shops
+type: NORMAL
+size: 9
+close_on_click: false
+update_interval: 20 # Set to 0 if you don't want the inventory to update itself every x ticks.
+sounds:
+  opening:
+    enabled: true
+    sound: BLOCK_CHEST_OPEN
+    volume: 1.0
+    pitch: 1.0
+  closing:
+    enabled: true
+    sound: BLOCK_CHEST_CLOSE
+    volume: 1.0
+    pitch: 1.0
+
+items:
+  normal_shop:
+    item:
+      - material:SUNFLOWER
+      - name:<yellow>Normal Shop
+    position: 4
+    actions:
+      - '[openmenu] shop'
+  rotating_shop:
+    item:
+      - material:CLOCK
+      - name:<yellow>Rotating Shop
+      - 'lore:'
+      - 'lore:<dark_gray>* <gray>Remaining Time: <yellow><shop_refresh_time:rotating_shop>'
+    position: 6
+    actions:
+      - '[openmenu] rotating_shop'
+  glass_bg_1:
+    item: &blue_bg
+      - material:BLUE_STAINED_GLASS_PANE
+      - name:<reset>
+    position: 1
+  glass_bg_2:
+    item: &purple_bg
+      - material:PURPLE_STAINED_GLASS_PANE
+      - name:<reset>
+    position: 2
+  glass_bg_3:
+    item: *blue_bg
+    position: 3
+  glass_bg_5:
+    item: *blue_bg
+    position: 5
+  glass_bg_7:
+    item: *blue_bg
+    position: 7
+  glass_bg_8:
+    item: *purple_bg
+    position: 8
+  glass_bg_9:
+    item: *blue_bg
+    position: 9
